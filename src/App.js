@@ -1,11 +1,11 @@
-import { BrowserRouter as Router } from "react-router-dom";
-import { Applet } from "./components/Applet";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
-    <Router>
-      <Applet />
-    </Router>
+    <div>
+      <Navbar />
+    </div>
   );
 }
 
