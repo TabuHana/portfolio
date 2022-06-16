@@ -1,10 +1,11 @@
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import { Applet } from "./components/Applet";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello World </h1>
-    </div>
+    <Router>
+      <Applet />
+    </Router>
   );
 }
 
