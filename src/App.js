@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div>
+    <div className="snap-y snap-mandatory">
       <Navbar />
       <Home />
       <Projects />

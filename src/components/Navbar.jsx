@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* Navbar */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to="home" smooth={true}  duration={500}>
+          <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
@@ -73,33 +73,49 @@ const Navbar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div className=' hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
-              Linkedin <FaLinkedin size={30}/>
+              <FaLinkedin size={30} />
+              Linkedin
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
-              GitHub <FaGithub size={30}/>
+              <FaGithub size={30} />
+              Github
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
-              Email <HiOutlineMail size={30}/>
+              <HiOutlineMail size={30} />
+              Email
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
-              Resume <BsFillPersonLinesFill size={30}/>
+              <BsFillPersonLinesFill size={30} />
+              Resume
             </a>
           </li>
         </ul>
       </div>
 
+      {/* Pretty Scroll */}
+      {/* <div className='lg:sticky top-0 w-1 h-screen lg:flex items-center'> */}
+      {/* <div className='hidden snap-y snap-mandatory top-[40%] w-1 h-screen lg:flex items-center fixed flex-col left-[5%] '>
+        <div className='grid grid-cols-1 h-full gap-2 lg:max-h-96 py-32 lg:py-0 section_nav'>
+          <Link to='home' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgb(255 199 203)' }}>' </Link>
+          <Link to='projects' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgba(0, 0, 0, 0.15)' }}> </Link>
+          <Link to='resume' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgba(0, 0, 0, 0.15)' }}> </Link>
+          <Link to='contact' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgba(0, 0, 0, 0.15)' }}> </Link>
+        </div>
+      </div> */}
+
 
     </div>
+
   )
 }
 
