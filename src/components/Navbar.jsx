@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -26,13 +26,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="resume" smooth={true} duration={500}>
-            Resume
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
+          <Link to="resume" smooth={true} duration={500}>
+            Resume
           </Link>
         </li>
       </ul>
@@ -60,14 +60,14 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to="resume" smooth={true} duration={500}>
-            Resume
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+          <Link onClick={handleClick} to="resume" smooth={true} duration={500}>
+            Resume
           </Link>
         </li>
       </ul>
@@ -89,14 +89,8 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
-              <HiOutlineMail size={30} />
-              Email
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
-            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
-              <BsFillPersonLinesFill size={30} />
-              Resume
+              <FontAwesomeIcon icon={faTwitter} fontSize={30} />
+              Twitter
             </a>
           </li>
         </ul>
