@@ -1,6 +1,8 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngular } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   return (
@@ -19,7 +21,9 @@ const Home = () => {
               I am a Full Stack Developer.
             </h1>
           </div>
-          {/* <div></div> */}
+          <div className='align-baseline'> 
+            Technologies :
+          </div>
         </div>
 
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
@@ -29,8 +33,10 @@ const Home = () => {
               </p>
           </div>
           <div>
-            <p>Technology section:
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facilis sapiente provident numquam modi molestiae temporibus ab placeat. Veniam dolorem maiores quam quo fugit est laboriosam autem distinctio asperiores obcaecati.
+            <p>
+            <FontAwesomeIcon icon={faAngular} color="#DD0031" fontSize={50}/>
+            <FontAwesomeIcon icon={faAngular} color="#DD0031" fontSize={50}/>
+            <FontAwesomeIcon icon={faAngular} color="#DD0031" fontSize={50}/>
             </p>
           </div>
         </div>
