@@ -32,11 +32,11 @@ const Home = () => {
           </div>
           <div>
             <p>
-              <FontAwesomeIcon icon={faJava} color="#DD0031" fontSize={50} />
               <FontAwesomeIcon icon={faHtml5} color="#DD0031" fontSize={50} />
               <FontAwesomeIcon icon={faCss3Alt} color="#DD0031" fontSize={50} />
-              <FontAwesomeIcon icon={faReact} color="#DD0031" fontSize={50} />
               <FontAwesomeIcon icon={faJsSquare} color="#DD0031" fontSize={50} />
+              <FontAwesomeIcon icon={faReact} color="#DD0031" fontSize={50} />
+              <FontAwesomeIcon icon={faJava} color="#DD0031" fontSize={50} />
               <FontAwesomeIcon icon={faGitAlt} color="#DD0031" fontSize={50} />
             </p>
           </div>
