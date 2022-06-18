@@ -31,14 +31,14 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <p>
-              <FontAwesomeIcon icon={faHtml5} color="#DD0031" fontSize={50} />
-              <FontAwesomeIcon icon={faCss3Alt} color="#DD0031" fontSize={50} />
-              <FontAwesomeIcon icon={faJsSquare} color="#DD0031" fontSize={50} />
-              <FontAwesomeIcon icon={faReact} color="#DD0031" fontSize={50} />
-              <FontAwesomeIcon icon={faJava} color="#DD0031" fontSize={50} />
-              <FontAwesomeIcon icon={faGitAlt} color="#DD0031" fontSize={50} />
-            </p>
+            <div className='pl-[20%]  md:pl-[10%]'>
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" fontSize={50} />
+              <FontAwesomeIcon icon={faCss3Alt} color="#28A4D9" fontSize={50} />
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" fontSize={50} />
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" fontSize={50} />
+              <FontAwesomeIcon icon={faJava} color="#FFFFFF" fontSize={50} />
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" fontSize={50} />
+            </div>
           </div>
         </div>
         <div className='pt-5'>
