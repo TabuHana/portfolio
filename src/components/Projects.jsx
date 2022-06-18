@@ -39,11 +39,11 @@ const Projects = () => {
                 Amiibfo
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://tabuhana.github.io/amiibo-info/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a href='https://tabuhana.github.io/amiibo-info/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://github.com/TabuHana/amiibo-info')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a href='https://github.com/TabuHana/amiibo-info' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -58,11 +58,11 @@ const Projects = () => {
                 Amiibo Locator
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://bsandfer.github.io/amiibo-locator/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a href='https://bsandfer.github.io/amiibo-locator/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://github.com/bsandfer/amiibo-locator')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a href='https://github.com/bsandfer/amiibo-locator' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -77,11 +77,11 @@ const Projects = () => {
                 JavaScript Quiz
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://tabuhana.github.io/JavaScript-Coding-Quiz/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a href='https://tabuhana.github.io/JavaScript-Coding-Quiz/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://github.com/TabuHana/JavaScript-Coding-Quiz')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a href='https://github.com/TabuHana/JavaScript-Coding-Quiz' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -96,11 +96,11 @@ const Projects = () => {
                 Password Generator
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://tabuhana.github.io/Random-Password-Generator/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a href='https://tabuhana.github.io/Random-Password-Generator/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://github.com/TabuHana/Random-Password-Generator')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a href='https://github.com/TabuHana/Random-Password-Generator' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -115,11 +115,11 @@ const Projects = () => {
                 Quick Cook
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://bootcamp-project-2-quickcook.herokuapp.com')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a href='https://bootcamp-project-2-quickcook.herokuapp.com' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://github.com/wreising/Week_8-Project_2-QuickCook')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a href='https://github.com/wreising/Week_8-Project_2-QuickCook' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -134,11 +134,11 @@ const Projects = () => {
                 Weather Dashboard
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://tabuhana.github.io/Weather-Dashboard/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                <a href='https://tabuhana.github.io/Weather-Dashboard/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='/'>
-                  <button onClick={() => openInNewTab('https://github.com/TabuHana/Weather-Dashboard')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                <a href='https://github.com/TabuHana/Weather-Dashboard' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
