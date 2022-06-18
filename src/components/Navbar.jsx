@@ -75,19 +75,19 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#0077B5]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
               <FaLinkedin size={30} />
               Linkedin
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#967BB6]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
               <FaGithub size={30} />
               Github
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#222]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#1DA1F2]'>
             <a href='/' className='flex justify-between items-center w-full text-gray-300'>
               <FontAwesomeIcon icon={faTwitter} fontSize={30} />
               Twitter
