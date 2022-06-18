@@ -1,4 +1,10 @@
 import React from 'react'
+import amiibfo from "../assests/amiibfo.png";
+import amiiLocator from "../assests/amiibo-locator.png";
+import jsQuiz from "../assests/js-coding-quiz.png";
+import passwordGen from "../assests/password-gen.png";
+import quickCook from "../assests/quick-cook.png";
+import weatherD from "../assests/weather-dash.png";
 
 const Projects = () => {
   return (
@@ -17,11 +23,11 @@ const Projects = () => {
 
           {/* Project 1 */}
           
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${amiibfo})` }}>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Example 1
+                Amiibfo
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -36,11 +42,11 @@ const Projects = () => {
 
           {/* Project 2 */}
 
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${amiiLocator})` }} >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Example 1
+                Amiibo Locator
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -55,11 +61,11 @@ const Projects = () => {
 
           {/* Project 3 */}
 
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${jsQuiz})` }}>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Example 1
+                JavaScript Quiz
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -74,11 +80,11 @@ const Projects = () => {
 
           {/* Project 4 */}
 
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${passwordGen})` }}>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Example 1
+                Password Generator
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -93,11 +99,11 @@ const Projects = () => {
 
           {/* Project 5 */}
 
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${quickCook})` }}>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Example 1
+                Quick Cook
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -112,11 +118,11 @@ const Projects = () => {
 
           {/* Project 6 */}
 
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${weatherD})` }}>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Example 1
+                Weather Dashboard
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>

@@ -1,10 +1,11 @@
+import { resume } from "../assests/nathanielMResume.pdf";
 
 const Resume = () => {
 
 
   return (
     <div>
-      <iframe src="/Nathaniel-M-Resume.pdf" title="resume"></iframe>
+      <iframe src={resume} title="resume"></iframe>
     </div>
   )
 }
