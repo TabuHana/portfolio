@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/%20//tabuhana.github.io/react-portfolio/static/css/main.cef825c2.css",
-    "main.js": "/%20//tabuhana.github.io/react-portfolio/static/js/main.fd872b15.js",
-    "index.html": "/%20//tabuhana.github.io/react-portfolio/index.html",
-    "main.cef825c2.css.map": "/%20//tabuhana.github.io/react-portfolio/static/css/main.cef825c2.css.map",
-    "main.fd872b15.js.map": "/%20//tabuhana.github.io/react-portfolio/static/js/main.fd872b15.js.map"
+    "main.css": "/react-portfolio/static/css/main.cef825c2.css",
+    "main.js": "/react-portfolio/static/js/main.fd872b15.js",
+    "index.html": "/react-portfolio/index.html",
+    "main.cef825c2.css.map": "/react-portfolio/static/css/main.cef825c2.css.map",
+    "main.fd872b15.js.map": "/react-portfolio/static/js/main.fd872b15.js.map"
   },
   "entrypoints": [
     "static/css/main.cef825c2.css",
