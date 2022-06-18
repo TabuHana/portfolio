@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-scroll";
+import resume from '../assests/nathanielMResume.pdf'
 
 const Navbar = () => {
 
@@ -31,9 +32,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="resume" smooth={true} duration={500}>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
 
@@ -65,10 +66,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to="resume" smooth={true} duration={500}>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
 
@@ -76,19 +76,19 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#0077B5]'>
-            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+            <a href='https://www.linkedin.com/in/nathaniel-marcellous/' className='flex justify-between items-center w-full text-gray-300'>
               <FaLinkedin size={30} />
               Linkedin
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#967BB6]'>
-            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+            <a href='https://github.com/TabuHana' className='flex justify-between items-center w-full text-gray-300'>
               <FaGithub size={30} />
               Github
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-100px] duration-300 bg-[#1DA1F2]'>
-            <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+            <a href='https://twitter.com/Tabu_Hana9' className='flex justify-between items-center w-full text-gray-300'>
               <FontAwesomeIcon icon={faTwitter} fontSize={30} />
               Twitter
             </a>

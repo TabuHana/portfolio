@@ -11,7 +11,7 @@ const Projects = () => {
   // code from https://bobbyhadz.com/blog/react-set-target-blank
   const openInNewTab = url => {
     // 👇️ setting target to _blank with window.open
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, '_blank', 'noopener, noreferrer');
   };
 
 
