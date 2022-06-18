@@ -15,7 +15,7 @@ const Home = () => {
             <p className='text-2xl font-bold inline'>
               Hello, my name is
             </p>
-            <h1 className='text-4xl sm:text-4xl font-bold text-blue-400'>
+            <h1 className='text-4xl sm:text-4xl font-bold text-[#f1c6c4]'>
               Nathaniel Marcellous
             </h1>
             <h1 className='text-4xl sm:text-3xl font-bold text-gray-500'>
@@ -42,7 +42,7 @@ const Home = () => {
           </div>
         </div>
         <div className='pt-5'>
-          <button className='text-white border-2  group px-6 py-3 my-2 flex items-center hover:bg-[#f5e1e0] hover:text-black hover:border-black'>
+          <button className='text-white border-2  group px-6 py-3 my-2 flex items-center hover:bg-[#f1c6c4] hover:text-black hover:border-black'>
             <Link to="projects" smooth={true} duration={500}>
               View Projects
             </Link>
