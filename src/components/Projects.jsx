@@ -7,6 +7,15 @@ import quickCook from "../assests/quick-cook.png";
 import weatherD from "../assests/weather-dash.png";
 
 const Projects = () => {
+
+  // code from https://bobbyhadz.com/blog/react-set-target-blank
+  const openInNewTab = url => {
+    // 👇️ setting target to _blank with window.open
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
+
+
   return (
     <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#333]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -31,10 +40,10 @@ const Projects = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  <button onClick={() => openInNewTab('https://tabuhana.github.io/amiibo-info/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  <button onClick={() => openInNewTab('https://github.com/TabuHana/amiibo-info')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -50,10 +59,10 @@ const Projects = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  <button onClick={() => openInNewTab('https://bsandfer.github.io/amiibo-locator/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  <button onClick={() => openInNewTab('https://github.com/bsandfer/amiibo-locator')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -69,10 +78,10 @@ const Projects = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  <button onClick={() => openInNewTab('https://tabuhana.github.io/JavaScript-Coding-Quiz/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  <button onClick={() => openInNewTab('https://github.com/TabuHana/JavaScript-Coding-Quiz')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -88,10 +97,10 @@ const Projects = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  <button onClick={() => openInNewTab('https://tabuhana.github.io/Random-Password-Generator/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  <button onClick={() => openInNewTab('https://github.com/TabuHana/Random-Password-Generator')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -107,10 +116,10 @@ const Projects = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  <button onClick={() => openInNewTab('https://bootcamp-project-2-quickcook.herokuapp.com')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  <button onClick={() => openInNewTab('https://github.com/wreising/Week_8-Project_2-QuickCook')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
@@ -126,10 +135,10 @@ const Projects = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  <button onClick={() => openInNewTab('https://tabuhana.github.io/Weather-Dashboard/')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  <button onClick={() => openInNewTab('https://github.com/TabuHana/Weather-Dashboard')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
             </div>
