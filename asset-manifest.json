@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cef825c2.css",
-    "main.js": "/react-portfolio/static/js/main.fd872b15.js",
+    "main.css": "/react-portfolio/static/css/main.ed25b55b.css",
+    "main.js": "/react-portfolio/static/js/main.51662192.js",
+    "static/media/quick-cook.png": "/react-portfolio/static/media/quick-cook.dd0c55c623f26dda43ed.png",
+    "static/media/amiibo-locator.png": "/react-portfolio/static/media/amiibo-locator.b017acac4d351cd5c107.png",
+    "static/media/weather-dash.png": "/react-portfolio/static/media/weather-dash.10d2227d9999f04bfa62.png",
+    "static/media/js-coding-quiz.png": "/react-portfolio/static/media/js-coding-quiz.63b79c34ec18cbdcff6a.png",
+    "static/media/nathanielMResume.pdf": "/react-portfolio/static/media/nathanielMResume.5b93b0ea849d7005e6a6.pdf",
+    "static/media/password-gen.png": "/react-portfolio/static/media/password-gen.faca1e2c41072bc5bb48.png",
     "index.html": "/react-portfolio/index.html",
-    "main.cef825c2.css.map": "/react-portfolio/static/css/main.cef825c2.css.map",
-    "main.fd872b15.js.map": "/react-portfolio/static/js/main.fd872b15.js.map"
+    "main.ed25b55b.css.map": "/react-portfolio/static/css/main.ed25b55b.css.map",
+    "main.51662192.js.map": "/react-portfolio/static/js/main.51662192.js.map"
   },
   "entrypoints": [
-    "static/css/main.cef825c2.css",
-    "static/js/main.fd872b15.js"
+    "static/css/main.ed25b55b.css",
+    "static/js/main.51662192.js"
   ]
 }
