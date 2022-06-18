@@ -8,14 +8,6 @@ import weatherD from "../assests/weather-dash.png";
 
 const Projects = () => {
 
-  // code from https://bobbyhadz.com/blog/react-set-target-blank
-  const openInNewTab = url => {
-    // 👇️ setting target to _blank with window.open
-    window.open(url, '_blank', 'noopener, noreferrer');
-  };
-
-
-
   return (
     <div name='projects' className='w-full md:h-screen text-gray-300 bg-[#333]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
