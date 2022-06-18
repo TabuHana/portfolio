@@ -18,7 +18,7 @@ const Home = () => {
             <h1 className='text-4xl sm:text-4xl font-bold text-[#f1c6c4]'>
               Nathaniel Marcellous
             </h1>
-            <h1 className='text-4xl sm:text-3xl font-bold text-gray-500'>
+            <h1 className='text-4xl sm:text-3xl font-bold text-gray-400'>
               I am a Full Stack Developer.
             </h1>
           </div>
