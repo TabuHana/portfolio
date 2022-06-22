@@ -1,10 +1,10 @@
 import React from 'react'
 import amiibfo from "../assests/amiibfo.png";
-import amiiLocator from "../assests/amiibo-locator.png";
 import jsQuiz from "../assests/js-coding-quiz.png";
 import passwordGen from "../assests/password-gen.png";
 import quickCook from "../assests/quick-cook.png";
 import weatherD from "../assests/weather-dash.png";
+import cryptoFollower from "../assests/crypto-follower.png";
 
 const Projects = () => {
 
@@ -24,17 +24,17 @@ const Projects = () => {
 
           {/* Project 1 */}
           
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${amiibfo})` }}>
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${cryptoFollower})` }}>
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Amiibfo
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://tabuhana.github.io/amiibo-info/' target="_blank" rel="noopener noreferrer">
+                <a href='https://cryptofollower-ca7ce.web.app/' target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='https://github.com/TabuHana/amiibo-info' target="_blank" rel="noopener noreferrer">
+                <a href='https://github.com/TabuHana/crypto-follower' target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
@@ -43,17 +43,17 @@ const Projects = () => {
 
           {/* Project 2 */}
 
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${amiiLocator})` }} >
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${amiibfo})` }} >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Amiibo Locator
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://bsandfer.github.io/amiibo-locator/' target="_blank" rel="noopener noreferrer">
+                <a href='https://tabuhana.github.io/amiibo-info/' target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href='https://github.com/bsandfer/amiibo-locator' target="_blank" rel="noopener noreferrer">
+                <a href='https://github.com/TabuHana/amiibo-info' target="_blank" rel="noopener noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
@@ -141,6 +141,7 @@ const Projects = () => {
       </div>
     </div>
   )
+
 }
 
 export default Projects
