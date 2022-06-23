@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ed25b55b.css",
-    "main.js": "/portfolio/static/js/main.7b2dcb40.js",
+    "main.js": "/portfolio/static/js/main.13c34f3c.js",
     "static/media/quick-cook.png": "/portfolio/static/media/quick-cook.dd0c55c623f26dda43ed.png",
     "static/media/crypto-follower.png": "/portfolio/static/media/crypto-follower.0a3649cf8324077a8379.png",
     "static/media/weather-dash.png": "/portfolio/static/media/weather-dash.10d2227d9999f04bfa62.png",
     "static/media/js-coding-quiz.png": "/portfolio/static/media/js-coding-quiz.63b79c34ec18cbdcff6a.png",
-    "static/media/nathanielMResume.pdf": "/portfolio/static/media/nathanielMResume.343a7d61cf07c1c5846e.pdf",
+    "static/media/nathanielMResume.pdf": "/portfolio/static/media/nathanielMResume.b0f94c9372b8127ba2ef.pdf",
     "static/media/password-gen.png": "/portfolio/static/media/password-gen.faca1e2c41072bc5bb48.png",
     "index.html": "/portfolio/index.html",
     "main.ed25b55b.css.map": "/portfolio/static/css/main.ed25b55b.css.map",
-    "main.7b2dcb40.js.map": "/portfolio/static/js/main.7b2dcb40.js.map"
+    "main.13c34f3c.js.map": "/portfolio/static/js/main.13c34f3c.js.map"
   },
   "entrypoints": [
     "static/css/main.ed25b55b.css",
-    "static/js/main.7b2dcb40.js"
+    "static/js/main.13c34f3c.js"
   ]
 }
