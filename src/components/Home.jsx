@@ -2,7 +2,7 @@ import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from "react-scroll"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faJava, faCss3Alt, faReact, faJsSquare, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faReact, faJsSquare, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
               Hello, my name is
             </p>
             <h1 className='text-4xl sm:text-4xl font-bold text-[#f1c6c4]'>
-              Nathaniel Marcellous
+              Nathan Marcellous
             </h1>
             <h1 className='text-4xl sm:text-3xl font-bold text-gray-400'>
               I am a Full Stack Developer.
@@ -27,7 +27,7 @@ const Home = () => {
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right font-bold'>
             <p>
-              My aim is to deepen my understanding in various areas of tech and product development. Currently, I am focused on building responsive full-stack web applications.
+              I work with both front-end and back-end technologies, and I enjoy the challenge of building complete web applications from start to finish. I am always striving to improve my skills and stay up-to-date with the latest developments in the field.
             </p>
           </div>
           <div>
@@ -36,7 +36,6 @@ const Home = () => {
               <FontAwesomeIcon icon={faCss3Alt} color="#28A4D9" fontSize={50} />
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" fontSize={50} />
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" fontSize={50} />
-              <FontAwesomeIcon icon={faJava} color="#FFFFFF" fontSize={50} />
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" fontSize={50} />
             </div>
           </div>

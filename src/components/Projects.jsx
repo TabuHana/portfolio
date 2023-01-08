@@ -1,5 +1,6 @@
 import React from 'react'
-import amiibfo from "../assests/amiibfo.png";
+import amiibfo from "../assests/amiibo-info.png";
+import mgl from "../assests/mgl.png"
 import quickCook from "../assests/quick-cook.png";
 import weatherD from "../assests/weather-dash.png";
 import cryptoFollower from "../assests/crypto-follower.png";
@@ -12,7 +13,6 @@ const Projects = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold inline text-gray-300'>Projects</p>
         </div>
-        {/* style={{ backgroundImage: `url(${})` }} */}
 
         {/* Projects */}
 
@@ -22,25 +22,6 @@ const Projects = () => {
 
           {/* Project 1 */}
           
-          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${cryptoFollower})` }}>
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Crypto Follower
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://cryptofollower-ca7ce.web.app/' target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                </a>
-                <a href='https://github.com/TabuHana/crypto-follower' target="_blank" rel="noopener noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Project 2 */}
-
           <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${amiibfo})` }} >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -58,7 +39,45 @@ const Projects = () => {
             </div>
           </div>
 
+          {/* Project 2 */}
+
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${mgl})` }}>
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                MyGamesList
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://mgl-mern.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href='https://github.com/TabuHana/mgl' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Project 3 */}
+
+          <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${cryptoFollower})` }}>
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Crypto Follower
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://cryptofollower-ca7ce.web.app/' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href='https://github.com/TabuHana/crypto-follower' target="_blank" rel="noopener noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 4 */}
 
           <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${quickCook})` }}>
             {/* Hover Effects */}
@@ -77,7 +96,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 4 */}
+          {/* Project 5 */}
 
           <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${weatherD})` }}>
             {/* Hover Effects */}

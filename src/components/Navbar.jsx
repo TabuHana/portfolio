@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex md:justify-center justify-end items-center px-4 bg-[#222] text-gray-300'>
+    <div className='fixed w-full h-[60px] flex md:justify-center justify-end items-center px-4 bg-[#222] text-gray-300'>
 
       {/* Navbar */}
       <ul className='hidden md:flex'>
@@ -24,11 +24,6 @@ const Navbar = () => {
         <li>
           <Link to="projects" smooth={true} duration={500}>
             Projects
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
           </Link>
         </li>
         <li>
@@ -59,12 +54,12 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        {/* <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
-        </li>
+        </li> */}
         <li className='py-6 text-4xl'>
           <a href={resume} target="_blank" rel="noopener noreferrer">
             Resume
@@ -95,18 +90,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
-      {/* Pretty Scroll */}
-      {/* <div className='lg:sticky top-0 w-1 h-screen lg:flex items-center'> */}
-      {/* <div className='hidden snap-y snap-mandatory top-[40%] w-1 h-screen lg:flex items-center fixed flex-col left-[5%] '>
-        <div className='grid grid-cols-1 h-full gap-2 lg:max-h-96 py-32 lg:py-0 section_nav'>
-          <Link to='home' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgb(255 199 203)' }}>' </Link>
-          <Link to='projects' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgba(0, 0, 0, 0.15)' }}> </Link>
-          <Link to='resume' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgba(0, 0, 0, 0.15)' }}> </Link>
-          <Link to='contact' className='snap-start opacity-100 h-full rounded-sm relative' style={{ backgroundColor: 'rgba(0, 0, 0, 0.15)' }}> </Link>
-        </div>
-      </div> */}
-
 
     </div>
 
