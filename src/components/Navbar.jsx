@@ -54,12 +54,6 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        {/* <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li> */}
         <li className='py-6 text-4xl'>
           <a href={resume} target="_blank" rel="noopener noreferrer">
             Resume

@@ -27,7 +27,7 @@ const Home = () => {
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right font-bold'>
             <p>
-              I work with both front-end and back-end technologies, and I enjoy the challenge of building complete web applications from start to finish. I am always striving to improve my skills and stay up-to-date with the latest developments in the field.
+              I work with both front-end and back-end technologies, and I enjoy the challenge of building complete web applications from start to finish. I am always striving to improve my skills and stay up-to-date with the latest developments in the field. Please feel free to reach out to me via my resume.
             </p>
           </div>
           <div>
